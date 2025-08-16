@@ -1,0 +1,163 @@
+{
+  "predictionResult": {
+    "annotationsGroups": [
+      {
+        "annotationSet": {
+          "name": "projects/624839602356/locations/us-central1/datasets/6162305276847325184/annotationSets/1247523485060694016",
+          "displayName": "Aligned Components",
+          "polygon": {},
+          "createTime": "2021-08-20T09:32:50.116477Z",
+          "updateTime": "2021-08-23T11:51:46.321237Z"
+        },
+        "annotations": [
+          {
+            "name": "localAnnotations/1000000",
+            "annotationSpecId": "9163696043257233408",
+            "annotationSetId": "1247523485060694016",
+            "polygon": {
+              "normalizedBoundingPoly": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.576829731,
+                    "y": 0.649797797
+                  },
+                  {
+                    "x": 0.671341896,
+                    "y": 0.643206656
+                  },
+                  {
+                    "x": 0.674117,
+                    "y": 0.68300128
+                  },
+                  {
+                    "x": 0.579604864,
+                    "y": 0.689592421
+                  }
+                ]
+              }
+            },
+            "source": {
+              "type": "MACHINE_PRODUCED",
+              "sourceModel": "projects/624839602356/locations/us-central1/solutions/1179028308696760320/modules/5557758599523991552/models/7472668050458673152"
+            }
+          },
+          {
+            "name": "localAnnotations/1000001",
+            "annotationSpecId": "9163696043257233408",
+            "annotationSetId": "1247523485060694016",
+            "polygon": {
+              "normalizedBoundingPoly": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.65750885,
+                    "y": 0.511876822
+                  },
+                  {
+                    "x": 0.691006,
+                    "y": 0.509540796
+                  },
+                  {
+                    "x": 0.69810617,
+                    "y": 0.611353159
+                  },
+                  {
+                    "x": 0.664609075,
+                    "y": 0.613689184
+                  }
+                ]
+              }
+            },
+            "source": {
+              "type": "MACHINE_PRODUCED",
+              "sourceModel": "projects/624839602356/locations/us-central1/solutions/1179028308696760320/modules/5557758599523991552/models/7472668050458673152"
+            }
+          }
+        ]
+      },
+      {
+        "annotationSet": {
+          "name": "projects/624839602356/locations/us-central1/datasets/6162305276847325184/annotationSets/2346964744092516352",
+          "displayName": "Output",
+          "classificationLabel": {},
+          "createTime": "2021-08-23T11:51:46.343743Z",
+          "updateTime": "2021-08-23T11:51:46.626782Z"
+        },
+        "annotations": [
+          {
+            "name": "localAnnotations/0",
+            "annotationSpecId": "738868515330588672",
+            "annotationSetId": "2346964744092516352",
+            "parentAnnotationId": "localAnnotations/1000000",
+            "classificationLabel": {
+              "confidenceScore": 0.652963758
+            },
+            "source": {
+              "type": "MACHINE_PRODUCED",
+              "sourceModel": "projects/624839602356/locations/us-central1/solutions/1179028308696760320/modules/5406888012007079936/models/1192398370090516480"
+            }
+          },
+          {
+            "name": "localAnnotations/1",
+            "annotationSpecId": "738868515330588672",
+            "annotationSetId": "2346964744092516352",
+            "parentAnnotationId": "localAnnotations/1000001",
+            "classificationLabel": {
+              "confidenceScore": 0.0180034339
+            },
+            "source": {
+              "type": "MACHINE_PRODUCED",
+              "sourceModel": "projects/624839602356/locations/us-central1/solutions/1179028308696760320/modules/5406888012007079936/models/1192398370090516480"
+            }
+          }
+        ]
+      },
+      {
+        "annotationSet": {
+          "name": "projects/624839602356/locations/us-central1/datasets/6162305276847325184/annotationSets/4064525051980939264",
+          "displayName": "Aligned Inspection Areas",
+          "polygon": {},
+          "createTime": "2021-08-20T09:32:50.004220Z",
+          "updateTime": "2021-08-20T09:32:50.004220Z"
+        },
+        "annotations": [
+          {
+            "name": "localAnnotations/1000002",
+            "annotationSpecId": "4498951991719886848",
+            "annotationSetId": "4064525051980939264",
+            "polygon": {
+              "normalizedBoundingPoly": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.335432857,
+                    "y": 0.287214
+                  },
+                  {
+                    "x": 0.825390279,
+                    "y": 0.25304544
+                  },
+                  {
+                    "x": 0.859790504,
+                    "y": 0.746324599
+                  },
+                  {
+                    "x": 0.369833082,
+                    "y": 0.7804932
+                  }
+                ]
+              }
+            },
+            "source": {
+              "type": "MACHINE_PRODUCED",
+              "sourceModel": "projects/624839602356/locations/us-central1/solutions/1179028308696760320/modules/5557758599523991552/models/7472668050458673152"
+            },
+            "labels": {
+              "goog_vi_transform_source_annotation_id": "8959410652581986304",
+              "goog_vi_annotation_set_name": "2470250783891783680"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "predictionLatency": "1.726004863s"
+}

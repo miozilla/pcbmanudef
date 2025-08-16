@@ -11,7 +11,6 @@ pcbmanudef : Manufacturing Anomaly Detection Model # Visual Inspection AI # PCB 
 - Perform a batch prediction using an Assembly Inspection solution artifact.
 
 
-
 ## PCB Manufacturing Anomaly Detection Model
 
 ![pcbmanudef001.png](./media/pcbmanudef001.png)
@@ -53,4 +52,7 @@ pcbmanudef : Manufacturing Anomaly Detection Model # Visual Inspection AI # PCB 
 ![pcbmanudef019.png](./media/pcbmanudef019.png)
 
 ![pcbmanudef020.png](./media/pcbmanudef020.png)
+
+![pcbmanudef021.png](./media/pcbmanudef021.png)
+
 
